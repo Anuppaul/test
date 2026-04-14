@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+  <title>About - Landing Page</title>
   <style>
     :root {
       --bg: #f7f9fc;
@@ -37,71 +37,56 @@
       border-radius: 14px;
       padding: 48px 32px;
       box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
-      text-align: center;
     }
 
     h1 {
-      font-size: clamp(2rem, 4vw, 3rem);
-      margin-bottom: 12px;
+      font-size: clamp(2rem, 4vw, 2.6rem);
+      margin-bottom: 14px;
       line-height: 1.1;
+      text-align: center;
     }
 
     p {
       font-size: 1.05rem;
       color: var(--muted);
-      max-width: 600px;
-      margin: 0 auto 28px;
-      line-height: 1.6;
+      line-height: 1.7;
+      margin-bottom: 16px;
     }
 
     .actions {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
+      margin-top: 20px;
+      text-align: center;
     }
 
     .btn {
+      display: inline-block;
       text-decoration: none;
       padding: 12px 20px;
       border-radius: 10px;
       font-weight: 600;
-      transition: transform 0.15s ease, background-color 0.15s ease;
-      border: 1px solid transparent;
-    }
-
-    .btn-primary {
       background: var(--primary);
       color: #fff;
+      transition: transform 0.15s ease, background-color 0.15s ease;
     }
 
-    .btn-primary:hover {
+    .btn:hover {
       background: var(--primary-dark);
-      transform: translateY(-1px);
-    }
-
-    .btn-secondary {
-      border-color: #d1d5db;
-      color: var(--text);
-      background: #fff;
-    }
-
-    .btn-secondary:hover {
-      background: #f3f4f6;
       transform: translateY(-1px);
     }
   </style>
 </head>
 <body>
   <main class="card">
-    <h1>Build Something Great</h1>
+    <h1>About Us</h1>
     <p>
-      A simple landing page template to help you launch quickly.
-      Customize this text, add your brand, and make it yours. confirm!
+      This is a simple About page connected to your landing page.
+      You can add your company story, mission, and team information here.
+    </p>
+    <p>
+      Everything is plain HTML and CSS, so it is easy to edit and expand.
     </p>
     <div class="actions">
-      <a class="btn btn-primary" href="about.html">Get Started</a>
-      <a class="btn btn-secondary" href="about.html">Learn More</a>
+      <a class="btn" href="index.html">Back to Home</a>
     </div>
   </main>
 </body>
